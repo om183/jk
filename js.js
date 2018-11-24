@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $(".title").hover(function(e){
+        $(".title").css("text-decoration","underline")
+    },function(){
+        $(".title").css("text-decoration","none")
+    })
+})
+$(document).ready(function(){
+    $(".social").hover(function(e){
+        $(".social").css("color","grey")
+    },function(){
+        $(".social").css("color","aquamarine")
+    })
+})
+$(document).ready(function(){
+    $(".lotfi").hover(function(){
+        $(".interests").show()
+    },function(){
+        $(".interests").hide()
+    })
+})
+$(document).ready(function(){
+    $(".lotfi").hover(function(){
+        $(".lotfi").css("color","aquamarine")
+    },function(){
+        $(".lotfi").css("color","black")
+    })
+})
+$(document).ready(function(){
+    $(".lotfi").hover(function(){
+        $(".interests").css("color","aquamarine")
+    },function(){
+        $(".interests").css("color","black")
+    })
+})
